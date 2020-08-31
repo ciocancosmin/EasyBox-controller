@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/register.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link href="css/user.css" rel="stylesheet" />
+
+</head>
+<body>
+
+	<div class="container">
+
+	<!-- 
+	<div class="row">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
+			<div id="main_login_div" style="border:1px solid gray">
+				<input type="text" id="username_inp" autocomplete="off" class="login_input" placeholder="Nume de utilizator" >
+				<input type="password" id="password_inp" autocomplete="off" class="login_input" placeholder="Parola" >
+				<input type="password" id="password_inp_check" autocomplete="off" class="login_input" placeholder="Repeta parola" onkeypress="check_enter(event)" >
+				<p id="login_div_error">Introduceti datele pentru inregistrare.</p>
+				<button type="button" class="btn btn-info" id="login_btn" style="width: 100%;font-size:24px;" onclick="register();">Inregistrare</button>
+				<p></p>
+				<div class="loader"></div>
+			</div>
+		</div>
+		<div class="col-md-2"></div>
+	</div>
+	-->
+
+	<div class="row">
+		<div class="col-md-4"></div>
+		<div class='col-md-4' style='padding-top:10%;'>	
+		<div class='account-wall'>
+		<div id='my-tab-content' class='tab-content'>
+		<div class='tab-pane active' id='login'>
+		<img class='profile-img' src='img/login.png'>
+		<div class='form-signin'>
+		<input type='text' name='username' id="username_inp" class='form-control' autocomplete='off' placeholder='Utilizator' required autofocus />
+		<p></p>
+		<input type='password' id="password_inp" name='password' class='form-control' autocomplete='off' placeholder='Parola' required />
+		<input type='password' id="password_inp_check" name='password' class='form-control' autocomplete='off' placeholder='Confirma Parola' required />
+		<input type='submit' class='btn btn-lg btn-primary btn-block' value='Inregistrare' onclick="register();" />
+		</div>
+		</div>
+		</div>
+		</div>
+		<p></p>
+		<div class='loader'></div>
+		<div class='alert alert-danger  margin-top-10 shadows-box' id="login_error_div" role='alert'>Introduceti datele pentru inregistrare.</div>
+		</div>
+		<div class="col-md-4"></div>
+	</div>
+
+	</div>
+
+</body>
+</html>
