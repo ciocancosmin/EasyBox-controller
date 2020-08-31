@@ -1,0 +1,14 @@
+body{
+	margin: 0;
+}
+.box{
+	padding: 10px;
+	background-color: grey;
+	width: 75px;
+	height: 90px;
+	border: 1px solid black;
+	position: absolute;
+}
+.box:hover{
+	cursor: pointer;
+}

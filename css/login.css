@@ -1,0 +1,90 @@
+body{
+	margin: 0 auto;
+	background-color: #E1E1E1;
+}
+#main_login_div{
+	padding: 20px;
+	background-color: white;
+	text-align: center;
+	/*max-width: 300px;*/
+	margin-top: 200px;
+}
+.login_input{
+	display: block;
+	margin-bottom: 40px;
+	width: 100%;
+	padding: 7px;
+	border:none;
+	border-bottom: 2px solid #ECECEC;
+	outline: none;
+	font-size: 24px;
+}
+#keyboard{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #252525;
+	padding: 20px;
+	display: none;
+}
+#keyboard2{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #252525;
+	padding: 20px;
+	display: none;
+}
+.tab
+{
+	background-color: #585858;
+	border-radius: 2px;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	padding-top: 5px;
+	color: white;
+	font-weight: normal;
+	font-size: 30px;
+	display: inline-block;
+	margin-left: 5px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+#login_div_error
+{
+	color: #BC0000;
+	margin-top: 20px;
+	font-size:24px;
+}
+.loader {
+  border: 8px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 8px solid #3498db;
+  border-bottom: 8px solid #3498db;
+  width: 80px;
+  height: 80px;
+  -webkit-animation: spin 0.5s linear infinite; /* Safari */
+  animation: spin 0.5s linear infinite;
+  margin-left: 45%;
+  display: none;
+  border: 8px solid #bc0000;
+  border-radius: 50%;
+  border-top: 8px solid #3498db;
+  border-bottom: 8px solid #3498db;
+  -webkit-animation: spin 0.5s linear infinite; /* Safari */
+  animation: spin 0.5s linear infinite;
+  margin-left: 45%;
+  display: none;  
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
